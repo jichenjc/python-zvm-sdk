@@ -27,7 +27,7 @@ class Logger():
                  log_file_name='zvmsdk.log', level=logging.INFO):
         # make sure target directory exists
         if not os.path.exists(log_dir):
-            pass
+            return
             # os.makedirs(log_dir)
 
         # create a logger
